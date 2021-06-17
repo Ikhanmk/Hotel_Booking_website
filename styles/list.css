@@ -15,10 +15,6 @@ body{
     height: 100vh;
 }
 
-.radissonName{
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
-}
 .hotelImg{
     width: 20vw;
     height: 30vh;
@@ -44,15 +40,17 @@ body{
     margin-right: 6%;
     margin-left: 2%;
 }
+.hotelDiv:hover{
+    background-color: rosybrown;
+}
 
 .hotelDetails{
-    font-family: 'Ubuntu', sans-serif;
     margin-left: 2%;
     margin-top: 4%;
 }
 
-.hotelDetails #hotelName{
-    font-weight: bold;
+h4{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -74,7 +72,7 @@ body{
 }
 
 #mapView{
-    display: none;
+    
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -98,10 +96,9 @@ footer{
     justify-content: space-between;
     height: 8%;
     align-items: center;
-    padding-right: 2%;
-    margin-top: 5%;
+    margin-top: 3%;
     padding-left: 1%;
-    padding-right: 2%;
+    padding-right: 1%;
 }
 
 
@@ -114,7 +111,7 @@ footer{
 #copyRight{
     font-size: 10px;
     font-family: 'Ubuntu', sans-serif;
-    padding-right: 20%;
+
 }
 
 .smImg{
@@ -122,12 +119,7 @@ footer{
     height: 20px;
 }
 
-#login{ 
-    color: black;
-    text-decoration: none;
-    margin-right: 1%;
-    font-family: 'Ubuntu', sans-serif;
-}
+
 
 #listView{
     display: flex;
