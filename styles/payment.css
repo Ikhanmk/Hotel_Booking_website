@@ -1,0 +1,35 @@
+body
+{
+    height: fit-content;
+    width: fit-content;
+}
+#container
+{
+    height: fit-content;
+    width: fit-content;
+}
+
+#logo
+{
+    height: 60px;
+    width: 60px;
+}
+#radissonImg
+{
+    height: 500px;
+    width: 500px;
+}
+#fb{
+    width: 22px;
+    height: 20px;
+}
+
+#insta{
+    width: 22px;
+    height: 20px;
+}
+
+#twitter{
+    width: 22px;
+    height: 20px;
+} 

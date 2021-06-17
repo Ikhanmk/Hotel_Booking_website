@@ -1,0 +1,25 @@
+body
+{
+    height: fit-content;
+    width: fit-content;
+}
+#container
+{
+    height: fit-content;
+    width: fit-content;
+}
+#radissonImg
+{
+    height: 200px;
+    width: 250px;
+}
+#lalitImg
+{
+    height: 200px;
+    width: 250px;
+}
+#tajImg
+{
+    height: 200px;
+    width: 250px;
+}
