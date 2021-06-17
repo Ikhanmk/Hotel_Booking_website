@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>list</title>
     <link rel="stylesheet" href="styles/list.css" />
+    <link rel="stylesheet" href="assests/fonts">
   </head>
 
   <body class="body">
@@ -11,7 +12,7 @@
     <header>
 
       <a href="index.html"><img src="assests\images\logo.png" id="logo"/></a>
-      <a href="login.html" target="_blank">Login</a>
+      <a href="login.html" target="_blank" id="login">Login</a>
 
     </header>
        
@@ -19,11 +20,10 @@
     <!-- content -->
 
     <div id="contentDiv">
-        <div>
-            <ul>
-              <li><a href="#listView">List View</a></li>
-              <li><a href="#mapView">Map View</a></li>
-            </ul>
+        <div id="views" class="views">
+          <a href="#listView">List View</a>
+          <a href="#mapView">Map View</a>
+
           </div>
 
           <div id="listView">
@@ -35,7 +35,7 @@
           </div>
     
           <div class="hotelDiv">
-            <a href=""><img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="" class="hotelImg"/></a><br/>
+            <a href=""><img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="" class="hotelImg"/></a>
             <p class="hotelName" id="hotelName">The Lalit New Delhi</p>
             <p class="rating" id="rating">4.5 star</p>
             <p class="area" id="area">New Delhi</p>
@@ -51,12 +51,11 @@
     
           
     
-          <div>
+          <div id="mapView">
             <a href=""
               ><img
                 src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
                 alt=""
-                id="mapView"
             /></a>
             <p>Map View</p>
           </div>
@@ -66,16 +65,19 @@
     
 
     <footer>
-      <a href="contact.html">Contact Us</a><br />
+        
+      <a href="contact.html" id="contactUs">Contact Us</a><br>
 
-      <a  href="https://www.facebook.com/" target="_blank"><img src="assests\images\facebook.png" class="smImg"/></a>
+      <p id="copyRight">&copy; 2020 ROOM SEARCH PVT LTD</p>
 
-      <a href="https://www.instagram.com/" target="_blank" ><img src="assests\images\instagram.png" class="smImg" /></a>
+      <div>
+        <a  href="https://www.facebook.com/" target="_blank"><img src="assests\images\facebook.png" class="smImg"/></a>
+        
+        <a href="https://www.instagram.com/" target="_blank" ><img src="assests\images\instagram.png" class="smImg" /></a>
 
-      <a  href="https://www.twitter.com/" target="_blank"><img src="assests\images\twitter.png" class="smImg"/></a><br />
-
-      <label>&copy; 2020 ROOM SEARCH PVT LTD</label>
-
+        <a  href="https://www.twitter.com/" target="_blank"><img src="assests\images\twitter.png" class="smImg"/></a><br />
+      </div>
+      
     </footer>
   </body>
 </html>
