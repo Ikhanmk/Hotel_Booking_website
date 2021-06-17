@@ -1,63 +1,69 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <link href="styles\detail.css" rel="stylesheet" />
-</head>
-<body>
-    <div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Details</title>
+        <link rel="stylesheet" href="styles/detail.css">
 
-    <header class="Header">
-        <a href="index.html" target="_self" ><img src="assests\images\logo.png"  alt="logo" height="200px" width="150px" id="logo"/></a>
-        <br>
-        <a href="login.html">
-            <p>Login</p>
-        </a>
-    </header>
-    <div class="Content">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radissonImg"/>
-    <form action="payment.html" target="_self">
-        <label>Adults:</label>
-        <input type="number" value="0" min="1" required><br>
-        <label>Name:</label>
-        <input type="text" placeholder="name" required><br>
-        <label>From date:</label>
-        <input type="date" required><br>
-        <label>To date:</label>
-        <input type="date" required><br>
-        <label>Total:</label>
-        <input disabled ><br>
-        <input type="submit" value="Book Now">
-        
-    </form>
-        <h3>Radisson Blu Hotel</h3>
-    <dl>
-        <dt>5 star</dt>
-        <dt>New Delhi</dt>
-        <dt>Amenities</dt>
-        
-    </dl>
-    <ul>
-        <li>Room service</li>
-        <li>Restaurant</li>
-        <li>Business centre</li>
-        <li>Fitness centre</li>
-        <li>pool</li>
-    </ul>
-    <h5>Description:</h5>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting indust</p>
+    </head>
 
+    <div >
+         <body>
+
+
+            <header>
+                <a href="index.html"> <img src="assests\images\logo.png" id="logo"></a>
+                <a href="login.html" target="_blank">Login</a>
+            </header>
+            
+            <div id="contenDiv">
+
+                <form >
+                    <a href=""><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" id="formImg"></a><br>
+                    
+                    <div style="margin-top: 10px;"><label for="">Adults: </label><input type="number" min="1" required></div>
+
+                    <label for="">Name: </label><input type="text" required><br>
+
+                    <label for="">From Date: </label><input type="date" required><br>
+
+                    <label for="">To Date: </label><input type="date" required><br>
+
+                    <label for="" style="margin-bottom: 20px;">Total: </label><input type="number"  disabled><br>
+
+                    <a href="payment.html" target="_blank"><button>Book Now</button></a>
+                    
+                </form>
+               
+
+
+                <h3>Radisson Blu Hotel</h3>
+                <div>
+                    <p>RATING</p>
+                </div>
+                <p>5 Star</p>
+                <p>AMENITIES</p>
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <h3>DESCRIPTION</h3>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsa id amet cumque, consequuntur soluta unde in distinctio facere sunt consequatur debitis incidunt provident aperiam commodi, ea ducimus, ullam ratione.Dolor ipsa id amet cumque, consequuntur soluta unde in distinctio facere sunt consequatur debitis incidunt provident aperiam commodi, ea ducimus, ullam ratione.</P>
+            </div>
+             
+            <footer>
+                <a href="">Contact US</a><br>
+
+                <a href="https://www.facebook.com/" target="_blank"><img src="assests\images\facebook.png" id="fb" class="smImg"></a>
+
+                <a href="https://www.instagram.com/" target="_blank"><img src="assests\images\instagram.png" id="insta" class="smImg"></a>
+
+                <a href="https://www.twitter.com/" target="_blank"><img src="assests\images\twitter.png" id="twitter" class="smImg"></a><br>
+
+                <label>&copy; 2020 ROOM SEARCH PVT LTD</label>
+            </footer>
+         </body>
     </div>
-    <footer class="Footer">
-        <a href="contact.html" target="_blank">contact-us</a><br>
-        <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px"
-                width="22px" /></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="20px"
-                width="22px" /></a>
-        <a href="https://www.twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
-                width="22px" /></a>
-     <p>&copy 2020 ROOM SEARCH PVT LTD</p>
-    </footer>
-    </div>
-    
-</body>
 </html>

@@ -14,22 +14,71 @@ body
     height: 60px;
     width: 60px;
 }
-#radissonImg
-{
-    height: 500px;
-    width: 500px;
+*{
+    margin: 0;
+    padding: 0;
+
 }
-#fb{
+#logo{
+    width: 60px;
+    height: 60px;
+}
+header{
+    background-color:rosybrown;
+    margin-bottom: 2%;
+}
+
+body{
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color: rosybrown;
+}
+
+
+#hotelImg{
+    width: 80%;
+    height: 80%;
+}
+
+.smImg{
     width: 22px;
     height: 20px;
 }
 
-#insta{
-    width: 22px;
-    height: 20px;
+.name{
+    font-weight: bold;
+    margin-top: 1%;
 }
 
-#twitter{
-    width: 22px;
-    height: 20px;
-} 
+#bookedHotelImg{
+    background-color: rgb(132,136,139);
+    width: 40%;
+    height: 60%;
+    margin: auto;
+}
+
+.tarrifBorder{
+    border: 1px solid black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+#tarrifB{
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+#totalAmount{
+    padding: 1%;
+}
+#contenDiv{
+    margin-left: 2%;
+}
+.detail{
+    margin-top: 10px;
+}

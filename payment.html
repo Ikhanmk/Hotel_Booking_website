@@ -1,45 +1,76 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <link href="styles\payment.css" rel="stylesheet"/>
-</head>
-<body>
-    <div id="container">
+  <head>
+    <title>payment</title>
+  </head>
 
-    <header class="Header">
-        <a href="index.html" target="_self" ><img src="assests\images\logo.png" alt=logo" height="200px" width="150px" id="logo" /></a>
-            <br>
-            <a href="login.html">
-                <p>Login</p>
-            </a>
+  <body>
+    <header>
+      <a href="index.html"><img src="assests\images\logo.png" id="logo"></a>
+      <a href="login.html" target="_blank">Login</a>
+      <link rel="stylesheet" href="styles/payment.css" />
     </header>
-    <div class="Content">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radissonImg"/>
-        <h3>Radisson Blu Hotel</h3>
-        
-        <span>N0.28,hathway street<br>New Delhi-89789</span><br>
-        <p>
-        <span><b>Name:</b> Imran Khan</span><br>
-        <span><b>No.of adults:</b> 5</span><br>
-        <span><b>Check in date:</b>12.9.2021</span><br>
-        <span><b>Check out date:</b> 15.9.2021</span><br>
-        <span><b>Tariff breakdown:</b>Rs.1000 X 5 adults X 3 nights</span><br>
-        <span><b>Amount:</b> 15000</span><br>
-    </p>
-    <a href="" >Pay now</a>
-    </div>
-    <footer class="Footer">
-        <a href="contact.html" target="_blank">contact-us</a><br>
-            <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px"
-                    width="22px" id="fb"/></a>
-            <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="20px"
-                    width="22px" id="insta" /></a>
-            <a href="https://www.twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px"
-                    width="22px" id="twitter"/></a>
-         <p>&copy 2020 ROOM SEARCH PVT LTD</p>
-    </footer>
-    </div>
-    
-</body>
 
+    <div id="contenDiv">
+      <div id="background">
+        <div id="bookedHotelImg">
+          <a href="payment.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="" id="hotelImg"/></a><br />
+          <h3 style="margin-top: 10px;">Radisson Blu Hotel</h3>
+          <p style="margin-top: 10px;">#38 of 1,289 hotels in New Delhi</p>
+          <p style="margin-top: 10px;">National HighWay 8,New Delhi 110017 India</p>
+      </div>
+
+      </div>
+      
+      
+      <div>
+        <div class="detail">
+          <label for="" class="name">Name: </label><span>John Doe</span>
+        </div>
+
+        <div class="detail">
+          <label for="" class="name">Number of Adults: </label><span>2</span>
+        </div>
+
+        <div class="detail">
+          <label for="" class="name">Check-in Date: </label
+          ><span>06/06/2020</span>
+        </div>
+
+        <div class="detail">
+          <label for="" class="name">Check-out Date: </label
+          ><span>08/06/2020</span;><br />
+        </div>
+
+        <div class="tarrifBorder">
+          <div id="tarrifB">
+            <label for="" class="name">Tarrif Breakdown: </label><span>Rs 1000 x 2 Adults x 5 Nights</span>
+          </div>
+  
+          <div id="totalAmount">
+            <label for="" class="name">Total Amount: </label><span>Rs 10000</span>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+     
+    </div>  
+    <div style="margin-top: 10px;"><a href="" >Pay Now</a></div>
+      
+    
+
+    <footer>
+      <a href="contact.html">Contact US</a><br />
+
+      <a  href="https://www.facebook.com/" target="_blank"><img src="assests\images\facebook.png" id="fb" class="smImg"/></a>
+
+        <a href="https://www.instagram.com/" target="_blank" ><img src="assests\images\instagram.png" id="insta" class="smImg"/></a>
+
+        <a  href="https://www.twitter.com/" target="_blank"><img src="assests\images\twitter.png" id="twitter" class="smImg"/></a><br />
+
+      <label>&copy; 2020 ROOM SEARCH PVT LTD</label>
+    </footer>
+  </body>
 </html>
